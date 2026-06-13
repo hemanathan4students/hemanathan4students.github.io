@@ -101,12 +101,16 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="image" href="/logo.png" />
   <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet" />
-  <script type="module" crossorigin src="/assets/index-BkT5IrlX.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DnYjTYJv.css">
+  <script type="module" crossorigin src="/assets/index-DB12UWA2.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C8_SIqhO.css">
 </head>
 <body>
+
+  <!-- Skip to content -->
+  <a href="#main-content" class="skip-link">Skip to content</a>
 
   <!-- NAV -->
   <header id="site-header">
@@ -128,6 +132,10 @@
       </ul>
       <div class="nav-right">
         <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm nav-cta-desktop"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg> Share Your Experience</a>
+        <button id="dark-mode-toggle" class="dm-toggle" aria-label="Toggle dark mode" type="button">
+          <svg class="icon dm-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon dm-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        </button>
         <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
@@ -135,7 +143,7 @@
     </nav>
   </header>
 
-  <main>
+  <main id="main-content">
     <!-- HERO -->
     <section id="about" class="hero">
       <div class="hero-bg">
@@ -148,6 +156,7 @@
         <p class="tagline reveal reveal-delay-1">Student Feedback Platform</p>
         <h1 class="hero-h1 reveal reveal-delay-1">Tell Us What's Really Happening at School</h1>
         <p class="hero-sub reveal reveal-delay-2">Share concerns, ideas, or experiences in under 2 minutes.</p>
+        <p class="hero-sub reveal reveal-delay-2 typewriter-wrap" aria-live="polite" aria-atomic="true"><span id="typewriter" data-words='["Share your story.","Make a difference.","Be heard.","Shape the future."]'></span></p>
         <ul class="hero-bullets reveal reveal-delay-3">
           <li><svg class="icon icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Anonymous option available</li>
           <li><svg class="icon icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Every response is reviewed</li>
@@ -199,6 +208,30 @@
               <h3>Student Initiatives Take Shape</h3>
               <p>Your feedback directly influences the proposals and improvements brought forward.</p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS COUNTER -->
+    <section class="section stats-section">
+      <div class="container">
+        <div class="stats-grid stats reveal reveal-delay-1">
+          <div class="stat" data-count="500+">
+            <span class="stat-value"><span class="stat-count">0</span></span>
+            <span class="stat-label">Responses Collected</span>
+          </div>
+          <div class="stat" data-count="12">
+            <span class="stat-value"><span class="stat-count">0</span></span>
+            <span class="stat-label">Categories Covered</span>
+          </div>
+          <div class="stat" data-count="95%">
+            <span class="stat-value"><span class="stat-count">0</span></span>
+            <span class="stat-label">Anonymous Submissions</span>
+          </div>
+          <div class="stat" data-count="100%">
+            <span class="stat-value"><span class="stat-count">0</span></span>
+            <span class="stat-label">Every Response Reviewed</span>
           </div>
         </div>
       </div>
@@ -377,7 +410,7 @@
     <div class="container">
       <div class="footer-grid reveal">
         <div>
-          <div class="footer-logo"><img src="/logo.png" alt="Hemanathan4Students" class="footer-logo-img" /><div><span class="logo-name">HEMANATHAN<span class="text-terra">4</span>STUDENTS</span><span class="logo-sub">Student Feedback Platform</span></div></div>
+          <div class="footer-logo"><img src="/logo.png" alt="Hemanathan4Students" class="footer-logo-img" loading="lazy" /><div><span class="logo-name">HEMANATHAN<span class="text-terra">4</span>STUDENTS</span><span class="logo-sub">Student Feedback Platform</span></div></div>
           <p class="footer-tagline">Listening. Learning. Improving. Together.</p>
           <p class="footer-small">Feedback collected via Google Forms for your privacy.</p>
         </div>
