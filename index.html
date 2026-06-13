@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon-192.png" />
+  <title>Hemanathan4Students — Student Feedback Platform</title>
+  <meta name="description" content="Share what's really happening at school. Hemanathan4Students is a student-led platform collecting honest feedback on campus life. Share your experience — it takes 2 minutes." />
+  <meta name="keywords" content="Hemanathan4Students, student feedback, campus life, student voice, student experience, campus community, student feedback platform" />
+  <meta name="author" content="Hemanathan4Students" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <link rel="canonical" href="https://hemanathan4students.github.io/" />
+  <link rel="sitemap" type="application/xml" href="sitemap.xml" />
+  <link rel="robots" href="robots.txt" />
+  <meta name="google-site-verification" content="hWNszrVnfGojPrR19lvYDVom_jFWwrLta9eQkVLAEww" />
+  <meta name="theme-color" content="#C85D3D" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com 'unsafe-inline'; font-src https://fonts.gstatic.com; script-src 'self'; connect-src 'self'; form-action 'self'; img-src 'self' data:;" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://hemanathan4students.github.io/" />
+  <meta property="og:title" content="Hemanathan4Students — Student Feedback Platform" />
+  <meta property="og:description" content="Share what's really happening at school. Hemanathan4Students is a student-led platform collecting honest feedback on campus life. Share your experience — it takes 2 minutes." />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="Hemanathan4Students" />
+  <meta property="og:image" content="https://hemanathan4students.github.io/og-image.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Hemanathan4Students — Student Feedback Platform" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hemanathan4Students — Student Feedback Platform" />
+  <meta name="twitter:description" content="Share what's really happening at school. Anonymous, 2 minutes, student-led." />
+  <meta name="twitter:image" content="https://hemanathan4students.github.io/og-image.svg" />
+  <script type="application/ld+json">
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Hemanathan4Students",
+        "url": "https://hemanathan4students.github.io/",
+        "description": "Student feedback platform for sharing campus experiences.",
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://hemanathan4students.github.io/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Hemanathan4Students — Student Feedback Platform",
+        "description": "Student-led platform collecting honest feedback on campus life and student experiences.",
+        "url": "https://hemanathan4students.github.io/",
+        "inLanguage": "en-US",
+        "about": {
+          "@type": "Thing",
+          "name": "Student Feedback and Campus Experience"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Who is this platform for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This platform is for all students who have experiences, concerns, or ideas related to campus life."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens after I submit my feedback?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your submission is reviewed to identify recurring themes, gaps, and priorities. These themes directly inform the proposals and improvements brought forward."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I suggest ideas, not just raise problems?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. Positive experiences and ideas for improvement are equally valuable and encouraged."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who sees my responses?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Only the team reviews submissions. Individual submissions are never shared publicly without your explicit consent."
+            }
+          }
+        ]
+      }
+    ]
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="image" href="/logo.png" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" />
+  <link rel="preload" as="style" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Skip to content -->
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <!-- NAV -->
+  <header id="site-header">
+    <nav class="nav-wrap">
+      <a href="#about" class="nav-logo">
+        <img src="/logo.png" alt="Hemanathan4Students" class="nav-logo-img" />
+        <div class="logo-text">
+          <span class="logo-name">HEMANATHAN<span class="text-terra">4</span>STUDENTS</span>
+          <span class="logo-sub">Student Feedback Platform</span>
+        </div>
+      </a>
+      <div class="nav-overlay" id="nav-overlay"></div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#how" class="nav-link">How It Works</a></li>
+        <li><a href="#categories" class="nav-link">Share Feedback</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li class="nav-cta-mobile"><a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg> Share Your Experience</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm nav-cta-desktop"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg> Share Your Experience</a>
+        <button id="dark-mode-toggle" class="dm-toggle" aria-label="Toggle dark mode" type="button">
+          <svg class="icon dm-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon dm-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO -->
+    <section id="about" class="hero">
+      <div class="hero-bg">
+        <div class="circle circle-tr"></div>
+        <div class="circle circle-bl"></div>
+        <div class="circle circle-mid"></div>
+      </div>
+      <div class="container hero-inner">
+        <img src="/logo.png" alt="Hemanathan4Students" class="hero-logo reveal" />
+        <p class="tagline reveal reveal-delay-1">Student Feedback Platform</p>
+        <h1 class="hero-h1 reveal reveal-delay-1">Tell Us What's Really Happening at School</h1>
+        <p class="hero-sub reveal reveal-delay-2">Share concerns, ideas, or experiences in under 2 minutes.</p>
+        <p class="hero-sub reveal reveal-delay-2 typewriter-wrap" aria-live="polite" aria-atomic="true"><span id="typewriter" data-words='["Share your story.","Make a difference.","Be heard.","Shape the future."]'></span></p>
+        <ul class="hero-bullets reveal reveal-delay-3">
+          <li><svg class="icon icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Anonymous option available</li>
+          <li><svg class="icon icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Every response is reviewed</li>
+          <li><svg class="icon icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Your feedback helps shape student priorities</li>
+        </ul>
+        <div class="hero-action reveal reveal-delay-4">
+          <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-hero cta-glow">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg> Share Your Experience
+          </a>
+        </div>
+        <div class="hero-badges reveal reveal-delay-5">
+          <span class="hb">Student-Led</span>
+          <span class="hb">Anonymous Option</span>
+          <span class="hb">2-Minute Form</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how" class="section section-warm">
+      <div class="container">
+        <p class="eyebrow center reveal">How It Works</p>
+        <h2 class="section-h2 center reveal reveal-delay-1">What Happens To My <em class="text-gradient">Feedback</em>?</h2>
+        <div class="timeline reveal reveal-delay-2">
+          <div class="tl-step">
+            <span class="tl-num">1</span>
+            <div class="tl-body">
+              <h3>You Submit</h3>
+              <p>Share your experience through the secure form. Anonymous is always an option.</p>
+            </div>
+          </div>
+          <div class="tl-step">
+            <span class="tl-num">2</span>
+            <div class="tl-body">
+              <h3>Responses Are Grouped</h3>
+              <p>Submissions are reviewed and organized into common themes and patterns.</p>
+            </div>
+          </div>
+          <div class="tl-step">
+            <span class="tl-num">3</span>
+            <div class="tl-body">
+              <h3>Key Concerns Are Identified</h3>
+              <p>The most frequently mentioned issues become priorities for action.</p>
+            </div>
+          </div>
+          <div class="tl-step">
+            <span class="tl-num">4</span>
+            <div class="tl-body">
+              <h3>Student Initiatives Take Shape</h3>
+              <p>Your feedback directly influences the proposals and improvements brought forward.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS COUNTER -->
+    <section class="section stats-section">
+      <div class="container">
+        <div class="stats-grid stats reveal reveal-delay-1">
+          <div class="stat" data-count="500+">
+            <span class="stat-value"><span class="stat-count">0</span></span>
+            <span class="stat-label">Responses Collected</span>
+          </div>
+          <div class="stat" data-count="12">
+            <span class="stat-value"><span class="stat-count">0</span></span>
+            <span class="stat-label">Categories Covered</span>
+          </div>
+          <div class="stat" data-count="95%">
+            <span class="stat-value"><span class="stat-count">0</span></span>
+            <span class="stat-label">Anonymous Submissions</span>
+          </div>
+          <div class="stat" data-count="100%">
+            <span class="stat-value"><span class="stat-count">0</span></span>
+            <span class="stat-label">Every Response Reviewed</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT CAN YOU SHARE -->
+    <section id="categories" class="section">
+      <div class="container">
+        <p class="eyebrow center reveal">What Can You Share?</p>
+        <h2 class="section-h2 center reveal reveal-delay-1">Pick a <em class="text-gradient">Category</em></h2>
+        <p class="body center mb-xl reveal reveal-delay-2">Choose the area that matches your experience. Every perspective helps.</p>
+        <div class="cat-grid reveal reveal-delay-3">
+          <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="cat-card" style="--cc:#C85D3D;--cb:#FEF6F3;--cbd:#F5D5CA">
+            <div class="cat-icon"><svg class="icon-xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></div>
+            <h3>&#x1F6E1;&#xFE0F; Safety Concerns</h3>
+            <p>Bullying, harassment, campus security, or feeling unsafe at school.</p>
+          </a>
+          <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="cat-card" style="--cc:#7D8C7E;--cb:#F3F6F3;--cbd:#D5E0D6">
+            <div class="cat-icon"><svg class="icon-xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+            <h3>&#x1F60A; Student Wellbeing</h3>
+            <p>Mental health, stress, peer pressure, and access to support services.</p>
+          </a>
+          <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="cat-card" style="--cc:#6B7B8C;--cb:#F2F5F7;--cbd:#D0DAE3">
+            <div class="cat-icon"><svg class="icon-xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5"/></svg></div>
+            <h3>&#x1F3EB; School Environment</h3>
+            <p>Facilities, cleanliness, seating, common areas, and campus infrastructure.</p>
+          </a>
+          <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="cat-card" style="--cc:#A84A2E;--cb:#FDF4F1;--cbd:#F0D0C5">
+            <div class="cat-icon"><svg class="icon-xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+            <h3>&#x1F468;&#x200D;&#x1F3EB; Learning Experiences</h3>
+            <p>Teaching quality, classroom experience, academic support, and curriculum.</p>
+          </a>
+          <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="cat-card" style="--cc:#5C7A5E;--cb:#F2F7F2;--cbd:#CEE0CF">
+            <div class="cat-icon"><svg class="icon-xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+            <h3>&#x1F4A1; Suggestions &amp; Ideas</h3>
+            <p>Ways to improve school life, new initiatives, or creative solutions.</p>
+          </a>
+          <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="cat-card" style="--cc:#C85D3D;--cb:#FEF6F3;--cbd:#F5D5CA">
+            <div class="cat-icon"><svg class="icon-xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+            <h3>&#x2B50; Positive Experiences</h3>
+            <p>Good moments, helpful teachers, and things going well that should be celebrated.</p>
+          </a>
+        </div>
+        <p class="body center mt-lg reveal reveal-delay-4">No issue is too small if it affects your school experience.</p>
+      </div>
+    </section>
+
+    <!-- WHY THIS EXISTS -->
+    <section id="why" class="section section-warm">
+      <div class="container container-sm">
+        <p class="eyebrow center reveal">Why This Exists</p>
+        <h2 class="section-h2 center reveal reveal-delay-1">Listening Before <em class="text-gradient">Acting</em></h2>
+        <p class="body-lg center reveal reveal-delay-2">Too often, decisions are made without fully understanding what students actually need. This platform exists to change that &mdash; by collecting honest feedback directly from students like you. Every response helps identify what's working, what isn't, and where to focus next.</p>
+      </div>
+    </section>
+
+    <!-- PILLARS -->
+    <section id="pillars" class="section section-warm">
+      <div class="container">
+        <p class="eyebrow center reveal">Guiding Pillars</p>
+        <h2 class="section-h2 center reveal reveal-delay-1">Our <em class="text-gradient">Principles</em></h2>
+        <div class="pillars-grid reveal reveal-delay-2">
+          <div class="pillar-card" style="--pc:#C85D3D;--pb:#FEF6F3;--pbd:#F5D5CA">
+            <span class="pillar-num">Pillar 01</span>
+            <h3 class="pillar-title">Listen First</h3>
+            <p class="pillar-desc">Before I act, I listen. Your experience shapes every decision I make. No agenda is set until I hear from you.</p>
+            <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="pillar-link">Share your thoughts on this &rarr;</a>
+          </div>
+          <div class="pillar-card" style="--pc:#7D8C7E;--pb:#F3F6F3;--pbd:#D5E0D6">
+            <span class="pillar-num">Pillar 02</span>
+            <h3 class="pillar-title">Safety &amp; Wellbeing</h3>
+            <p class="pillar-desc">Every student deserves to feel safe, supported, and cared for on campus &mdash; both physically and emotionally.</p>
+            <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="pillar-link">Share your thoughts on this &rarr;</a>
+          </div>
+          <div class="pillar-card" style="--pc:#6B7B8C;--pb:#F2F5F7;--pbd:#D0DAE3">
+            <span class="pillar-num">Pillar 03</span>
+            <h3 class="pillar-title">Respect &amp; Inclusion</h3>
+            <p class="pillar-desc">A campus where every voice matters, regardless of background, identity, or circumstance.</p>
+            <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="pillar-link">Share your thoughts on this &rarr;</a>
+          </div>
+          <div class="pillar-card" style="--pc:#A84A2E;--pb:#FDF4F1;--pbd:#F0D0C5">
+            <span class="pillar-num">Pillar 04</span>
+            <h3 class="pillar-title">Action Over Words</h3>
+            <p class="pillar-desc">I don't just talk about change &mdash; I work to make it happen. Commitments are followed through, not forgotten.</p>
+            <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="pillar-link">Share your thoughts on this &rarr;</a>
+          </div>
+          <div class="pillar-card" style="--pc:#5C7A5E;--pb:#F2F7F2;--pbd:#CEE0CF">
+            <span class="pillar-num">Pillar 05</span>
+            <h3 class="pillar-title">Growth Together</h3>
+            <p class="pillar-desc">We grow as a community when we support one another. Student wellbeing is a shared responsibility.</p>
+            <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="pillar-link">Share your thoughts on this &rarr;</a>
+          </div>
+          <div class="pillar-card pillar-cta-card">
+            <div class="pillar-cta-inner">
+              <h3>Have something to add?</h3>
+              <p class="pillar-desc">These pillars were shaped by early conversations with students &mdash; and they'll keep evolving with your input.</p>
+              <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg> Share Your Voice</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <p class="eyebrow center reveal">From Students</p>
+        <h2 class="section-h2 center reveal reveal-delay-1">Real <em class="text-gradient">Responses</em></h2>
+        <div class="testimonial-grid reveal reveal-delay-2">
+          <div class="testimonial-card">
+            <svg class="icon quote-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            <p>"The form was quick and easy to fill out. I liked that I could share concerns privately."</p>
+            <span class="testimonial-author">&mdash; Student</span>
+          </div>
+          <div class="testimonial-card">
+            <svg class="icon quote-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            <p>"Finally a way to share what's actually happening without worrying about who sees it."</p>
+            <span class="testimonial-author">&mdash; Student</span>
+          </div>
+          <div class="testimonial-card">
+            <svg class="icon quote-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+            <p>"Knowing my feedback gets reviewed makes me feel like my voice actually matters."</p>
+            <span class="testimonial-author">&mdash; Student</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section-warm section-wave-top">
+      <div class="container">
+        <div class="faq-grid">
+          <div class="faq-left reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2 class="section-h2">Questions <em class="text-gradient">Answered</em></h2>
+            <p>Transparency matters. Here are the most common questions about this platform and how your feedback is used.</p>
+          </div>
+          <div class="faq-right reveal reveal-delay-1">
+            <div class="accordion" id="accordion">
+              <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Who is this platform for?</span><span class="acc-icon">+</span></button><div class="acc-panel"><p>This platform is for all students who have experiences, concerns, or ideas related to campus life. Whether you have a specific concern, a positive experience to share, or a suggestion &mdash; every student's voice matters here.</p></div></div>
+              <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>What happens after I submit my feedback?</span><span class="acc-icon">+</span></button><div class="acc-panel"><p>Your submission is reviewed to identify recurring themes, gaps, and priorities. These themes directly inform the proposals and improvements brought forward to benefit students. You're not sending feedback into a void &mdash; it shapes real priorities.</p></div></div>
+              <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>How is this different from a formal complaint system?</span><span class="acc-icon">+</span></button><div class="acc-panel"><p>This is a listening platform, not a formal complaints process. It's a space for honest conversation &mdash; not a place where submissions trigger investigations or formal procedures. Think of it as the first step: helping understand what students actually need.</p></div></div>
+              <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Can I suggest ideas, not just raise problems?</span><span class="acc-icon">+</span></button><div class="acc-panel"><p>Absolutely. Positive experiences and ideas for improvement are equally valuable. If you've seen something that works well and should be expanded, or have a creative idea for how campus life could be better &mdash; please share it.</p></div></div>
+              <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>Who sees my responses?</span><span class="acc-icon">+</span></button><div class="acc-panel"><p>Only the team reviews submissions. Responses are analysed to identify themes and patterns &mdash; individual submissions are never shared publicly without your explicit consent.</p></div></div>
+              <div class="acc-item"><button class="acc-trigger" aria-expanded="false"><span>What if my concern is urgent or requires immediate support?</span><span class="acc-icon">+</span></button><div class="acc-panel"><p>If your situation requires immediate attention, please reach out directly to the appropriate school authorities, staff members, counselors, or emergency contacts who can provide timely assistance. This platform is designed to listen to student concerns and gather feedback &mdash; it should not be used as a substitute for immediate help in urgent situations.</p></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner">
+      <div class="cta-bg"><div class="circle cta-tr"></div><div class="circle cta-bl"></div></div>
+      <div class="container cta-inner">
+        <h2 class="cta-h2 reveal reveal-delay-1">Ready to share your experience?</h2>
+        <p class="cta-body reveal reveal-delay-2">Your voice helps shape what's next for students. Takes 2 minutes.</p>
+        <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="btn btn-white reveal reveal-delay-3">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg> Share Your Experience
+        </a>
+        <p class="cta-note reveal reveal-delay-3">Takes 2&ndash;3 minutes &middot; Powered by Google Forms &middot; Anonymous option available</p>
+        <p class="cta-note reveal reveal-delay-4" style="margin-top:0.75rem;font-size:0.75rem;opacity:0.55">Your responses go directly to the student representative team. Individual submissions are never shared publicly.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast -->
+  <div id="toast"></div>
+
+  <!-- Back to top -->
+  <button id="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+  </button>
+
+  <footer class="footer" id="privacy">
+    <div class="container">
+      <div class="footer-grid reveal">
+        <div>
+          <div class="footer-logo"><img src="/logo.png" alt="Hemanathan4Students" class="footer-logo-img" loading="lazy" /><div><span class="logo-name">HEMANATHAN<span class="text-terra">4</span>STUDENTS</span><span class="logo-sub">Student Feedback Platform</span></div></div>
+          <p class="footer-tagline">Listening. Learning. Improving. Together.</p>
+          <p class="footer-small">Feedback collected via Google Forms for your privacy.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Navigate</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#how">How It Works</a></li>
+            <li><a href="#categories">Share Feedback</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#privacy">Privacy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Get Involved</h4>
+          <p class="footer-body">Your feedback helps shape student priorities. Share your experience in under 2 minutes.</p>
+          <a href="https://forms.gle/m7rbuGkP7fSGWubA9" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 3a2.828 2.828 0 114 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg> Share Your Experience &rarr;</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Hemanathan4Students &mdash; Student Voice Portal. All rights reserved.</p>
+        <p class="footer-small">Student-led. Anonymous. Listening first.</p>
+        <p class="footer-small" style="margin-top:0.5rem;opacity:0.6">Responses go directly to the student representative team via Google Forms. Google's <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:underline">privacy policy</a> applies to form submissions. Individual responses are never shared publicly.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>
