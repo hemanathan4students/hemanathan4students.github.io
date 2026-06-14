@@ -35,6 +35,7 @@ function animateStats() {
     const el = stat.querySelector('.stat-count')
     if (!el) return
 
+    const hasPlus = target.endsWith('+')
     const isPercent = target.includes('%')
     const targetNum = parseInt(target, 10)
     if (isNaN(targetNum)) return
@@ -50,7 +51,10 @@ function animateStats() {
         current = targetNum
         clearInterval(timer)
       }
-      el.textContent = Math.floor(current) + (isPercent ? '%' : '')
+      let display = Math.floor(current).toString()
+      if (isPercent) display += '%'
+      if (hasPlus) display += '+'
+      el.textContent = display
     }, stepTime)
   })
 }
